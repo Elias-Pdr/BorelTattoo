@@ -107,6 +107,7 @@
     .addComentario {
         width: 70%;
     }
+
 }
 @media (min-width: 800px){     /* MINIMO */
     .btnAbrirMenu,.btnFecharMenu{
