@@ -1,3 +1,15 @@
+let titleName = document.querySelectorAll(".titleName")
+for (let i = 0; i < titleName.length; i++) {
+    titleName[i].innerHTML = "Joanna Rodrigues"
+}
+let endereco = document.querySelector(".endereco")
+endereco.innerHTML = "???"
+
+let enderecoMapa = document.querySelector(".enderecoMapa")
+enderecoMapa.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64440159.17531167!2d-99.76709813773608!3d-9.671198649557327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1701131771472!5m2!1spt-BR!2sbr"
+
+
+
 window.onscroll = function() {
     scrollFunction();
 };
@@ -14,16 +26,16 @@ if (scrollPosition > 0.8 * window.innerHeight) {
 }
 
 function whatsApp(){
-    window.open('https://api.whatsapp.com/send?phone=5524999519904&text=Gostaria%20de%20fazer%20um%20or%C3%A7amento')
+    //window.open('')
 }
 function faceBook(){
-    window.open('https://www.facebook.com/BTattoo/?locale=pt_BR')
+    //window.open('')
 }
 function instagram(){
-    window.open('https://www.instagram.com/boreltattoo/?hl=pt')
+    //window.open('')
 }
 function tikTok(){
-    window.open('https://www.tiktok.com/@borel.tattoo')
+    //window.open('')
 }
 
 let shadow = document.querySelector(".shadow")

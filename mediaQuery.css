@@ -18,6 +18,13 @@
 }
 
 @media (max-width: 1000px){
+    .boxArtistas img {
+        width: 360px;
+        height: 360px;
+    }
+    .boxArtistas p{
+        margin-left: calc(360px + 30px);
+    }
     .cntrArtistas {
         padding: 40px 20px;
     }
@@ -63,6 +70,13 @@
     .addComentario {
         width: 50%;
     }
+    .boxArtistas img {
+        width: 300px;
+        height: 300px;
+    }
+    .boxArtistas p{
+        margin-left: calc(300px + 30px);
+    }
 }
 @media (max-width: 900px){
     header img{
@@ -74,6 +88,24 @@
     .cntrCarrossel {
         padding: 10px 20px;
     }
+    .boxArtistas {
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    background-image: linear-gradient(5deg, rgb(26, 26, 26), transparent);
+    margin-bottom: 0px;
+}
+    .boxArtistas p {
+        margin: 0px;
+        margin-top: calc(300px + 30px);
+    }
+    .tatuagens img {
+        width: 32%;
+        padding: 4px;
+    }
+
 }
 
 
@@ -82,9 +114,7 @@
         font-size: 30px;
     }
 
-    .boxArtistas img {
-        width: 400px;
-    }
+
     .btnAbrirMenu{
         display: flex;
         padding: 20px;
@@ -107,6 +137,10 @@
     .addComentario {
         width: 70%;
     }
+    .tatuagens {
+        width: 100%;
+        padding: 30px 30px;
+    }
 
 }
 @media (min-width: 800px){     /* MINIMO */
@@ -120,27 +154,20 @@
 
 
 @media (max-width: 750px){
-    .boxArtistas {
-        flex-direction: column;
-        padding: 30px;
-    }
+
     .cntrArtistas {
         padding: 40px 50px;
     }
-    .boxArtistas img {
-        margin-right: 0px;
-        margin-bottom: 20px;
-        width: 100%;
+    .cntrCarrossel svg {
+        width: 50px;
+        height: 50px;
+
     }
-    .boxArtistas:nth-child(2) {
-        flex-direction: column !important;
+    .tatuagens img {
+        width: 49%;
     }
-    .boxArtistas:nth-child(2) img {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    .cntrArtistas .boxArtistas:nth-child(2) p {
-        padding-left: 0px;
+    footer p {
+        font-size: 13px;
     }
 }
 @media (max-width: 750px){
@@ -233,9 +260,6 @@
     }
 }
 @media (max-width: 550px){
-    .boxArtistas {
-        padding: 20px;
-    }
     .cntrArtistas {
         padding: 0px 20px;
     }
